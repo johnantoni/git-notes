@@ -1,5 +1,11 @@
 # GIT
 
+## Installing GIT Hooks
+
+    $ cd .git
+    $ rm -fr hooks
+    $ git clone git://github.com/zoocasa/git-hooks.git hooks 
+
 ## Common Development Tasks
 
 ### Pruning Branches
