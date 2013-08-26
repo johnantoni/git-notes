@@ -77,6 +77,10 @@ If nothing was changed with resolution:
 
 Once resolved & rebased you will now be back on the new-feature branch with an updated commit history.
 
+To push your changes to the branch you'll need to force-push as the history in the remote branch will be out of date.
+
+    git push -f origin new-feature
+
 ## Cherry Pick one commit into current branch
 
 Find the commit id for the one you want to apply to the top of your current branch, then:
