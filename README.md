@@ -80,6 +80,11 @@ Once resolved & rebased you will now be back on the new-feature branch with an u
 To push your changes to the branch you'll need to force-push as the history in the remote branch will be out of date.
 
     git push -f origin new-feature
+    
+### When to do a rebase / force-push
+
+* Before merging into the main branch
+* When reviving an old branch
 
 ## Cherry Pick one commit into current branch
 
