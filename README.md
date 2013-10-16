@@ -8,6 +8,12 @@
 
 ## Common Development Tasks
 
+### Squash Commits
+
+    git rebase -i HEAD~3
+
+~3 = last three commits
+
 ### Pruning Branches
 
     git fetch --prune
