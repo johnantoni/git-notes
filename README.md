@@ -14,6 +14,10 @@
 
 ~3 = last three commits
 
+    git push origin branch-name --force
+
+rewrite history on remote
+
 ### Pruning Branches
 
     git fetch --prune
