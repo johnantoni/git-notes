@@ -12,7 +12,7 @@
 
     git rebase -i HEAD~3
 
-~3 = last three commits
+~3 = review last three commits
 
 Do your changes, the first commit message will be the title one, the rest will be below it, sub headings.
 Once done, you'll need to rewrite the remote's history to keep everything in-sync so force-push it.
