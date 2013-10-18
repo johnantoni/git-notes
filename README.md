@@ -21,7 +21,7 @@ Once done, you'll need to rewrite the remote's history to keep everything in-syn
 
 rewrite history on remote
 
-### List edits by who on a file
+### List edits by who on what (blame)
 
     git blame [filename]
 
