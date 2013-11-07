@@ -204,3 +204,5 @@ See remote branches
 * [25 Tips for Intermediate Git Users](http://andyjeffries.co.uk/articles/25-tips-for-intermediate-git-users)
 * [GitX for OSX](https://github.com/rowanj/gitx)
 
+Broken git pull location, edit .git/config
+* [http://stackoverflow.com/questions/13030714/git-1-8-0-fatal-the-current-branch-master-has-multiple-upstream-branches-refu](http://stackoverflow.com/questions/13030714/git-1-8-0-fatal-the-current-branch-master-has-multiple-upstream-branches-refu)
