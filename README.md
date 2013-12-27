@@ -21,6 +21,10 @@ Once done, you'll need to rewrite the remote's history to keep everything in-syn
 
 rewrite history on remote
 
+### discard all changes
+
+    git checkout -- .
+
 ### List edits by who on what (blame)
 
     git blame [filename]
