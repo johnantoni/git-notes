@@ -187,6 +187,12 @@ See local branches
 
 See remote branches
 
+### git submodule add
+
+Add submodule
+
+    git submodule add git@github.com:johnantoni/git-notes.git docs/git-notes
+
 ## Tools
 
 * TIG[https://github.com/jonas/tig]
