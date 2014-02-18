@@ -12,7 +12,7 @@
 
 This changes if your rebasing as local changes will be applied on top of any remote changes, so:
 
-    [-----local-----] [-----base-----] [-----remote-----]
+    [-----remote-----] [-----base-----] [-----local-----]
 
 When you do a git pull --rebase your are updating the commit history with changes from the remote, then applying your local changes on top of those commits.
 
