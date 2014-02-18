@@ -8,7 +8,7 @@
 * Local are the conflicting changes from your local machine
 * Remote are the changes coming from the remote (e.g. github repository)
 
-##### git rebase
+##### git rebase merge
 
 This changes if your rebasing as local changes will be applied on top of any remote changes, so:
 
@@ -16,7 +16,7 @@ This changes if your rebasing as local changes will be applied on top of any rem
 
 When you do a git pull --rebase your are updating the commit history with changes from the remote, then applying your local changes on top of those commits.
 
-* Local will contain the conflicting changes from all the commits leading up to the merge, so will also include changes from the remote.
+* Local will contain the conflicting changes from all the commits leading up to the merge, so will also include any new commits from the remote.
 * Base will contain the original and any non-conflicting changes.
 * Remote will contain the changes you have done locally that conflict with the repositories combined commits.
 
