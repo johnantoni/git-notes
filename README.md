@@ -102,6 +102,20 @@ To push your changes to the branch you'll need to force-push as the history in t
 
     git push -f origin new-feature
     
+### Destroy your last commit?
+
+If you accidentally committed something you wish you hadn't,
+
+    git reset --hard HEAD~1
+    
+rollback one commit
+
+    git push origin [branch-name] --force
+    
+force push your branch overwriting the remote and wiping that commit from existence
+
+NOTE: best to do a git pull before even thinking about --force pushing your changes as you'll potentially wipe someone elses commits if you don't have them.
+
 ### When to do a rebase / force-push
 
 * Before merging into the main branch
